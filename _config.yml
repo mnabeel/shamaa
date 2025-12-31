@@ -1,0 +1,54 @@
+# Jekyll Configuration for GitHub Pages
+
+# Site settings
+title: Shamaa
+description: A beautiful GitHub Pages site
+author: mnabeel
+email: your-email@example.com
+baseurl: "/shamaa"
+url: "https://mnabeel.github.io"
+
+# Theme settings
+# You can use one of GitHub's supported themes
+# Options: minima, cayman, slate, midnight, architect, leap-day, merlot, time-machine, minimal, modernist, tactile, dinky, hacker
+theme: minima
+
+# Or use a remote theme (uncomment to use)
+# remote_theme: pages-themes/cayman@v0.2.0
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Collections (optional - for blog posts, portfolio items, etc.)
+# collections:
+#   posts:
+#     output: true
+#   projects:
+#     output: true
+
+# Social links (optional)
+github_username: mnabeel
+# twitter_username: your_username
+# linkedin_username: your_username
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Disqus comments (optional)
+# disqus:
+#   shortname: your-disqus-shortname
+
+# Timezone
+timezone: America/New_York
