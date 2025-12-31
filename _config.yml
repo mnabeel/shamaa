@@ -1,16 +1,20 @@
 # Jekyll Configuration for GitHub Pages
 
 # Site settings
-title: Shamaa
-description: A beautiful GitHub Pages site
+title: The Scientific Revolution
+description: An educational documentary exploring the transformation of scientific thought from 1543-1687
 author: mnabeel
 email: your-email@example.com
 baseurl: "/shamaa"
 url: "https://mnabeel.github.io"
 
+# SEO and Metadata
+lang: en
+keywords: scientific revolution, Copernicus, Galileo, Newton, Kepler, history of science, astronomy, physics, scientific method
+
 # Theme settings
-# You can use one of GitHub's supported themes
-# Options: minima, cayman, slate, midnight, architect, leap-day, merlot, time-machine, minimal, modernist, tactile, dinky, hacker
+# Using custom CSS themes instead of Jekyll themes for full control
+# See THEMES.md for available themes
 theme: minima
 
 # Or use a remote theme (uncomment to use)
@@ -26,19 +30,15 @@ plugins:
 # Exclude files from processing
 exclude:
   - README.md
+  - THEMES.md
+  - DEPLOY.md
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+  - .gitignore
 
-# Collections (optional - for blog posts, portfolio items, etc.)
-# collections:
-#   posts:
-#     output: true
-#   projects:
-#     output: true
-
-# Social links (optional)
+# Social links
 github_username: mnabeel
 # twitter_username: your_username
 # linkedin_username: your_username
@@ -52,3 +52,11 @@ github_username: mnabeel
 
 # Timezone
 timezone: America/New_York
+
+# Site defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      author: mnabeel

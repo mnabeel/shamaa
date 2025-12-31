@@ -100,5 +100,6 @@ window.addEventListener('load', () => {
 });
 
 // Console message for developers
-console.log('%c?? Welcome to Shamaa!', 'font-size: 20px; color: #0366d6; font-weight: bold;');
-console.log('%cInterested in the code? Check out the repository!', 'font-size: 14px; color: #6f42c1;');
+console.log('%c?? The Scientific Revolution', 'font-size: 20px; color: #1B365D; font-weight: bold;');
+console.log('%cExploring the transformation of scientific thought (1543-1687)', 'font-size: 14px; color: #8A9A5B;');
+console.log('%cInterested in the code? Check out the repository!', 'font-size: 12px; color: #708090;');
