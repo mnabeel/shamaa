@@ -117,7 +117,7 @@ h2::after {
 
 .container::before,
 .container::after {
-    content: '?';
+    content: '';
     position: absolute;
     font-size: 2.5rem;
     color: var(--accent-color);
@@ -210,7 +210,7 @@ nav {
 
 /* Animated ornamental brackets for logo - using safe symbols */
 .logo::before {
-    content: '‹';
+    content: '';
     position: absolute;
     left: -25px;
     opacity: 0;
@@ -220,7 +220,7 @@ nav {
 }
 
 .logo::after {
-    content: '›';
+    content: '';
     position: absolute;
     right: -25px;
     opacity: 0;
@@ -310,7 +310,7 @@ nav {
 
 /* Animated decorative flourish background */
 .hero::before {
-    content: '?';
+    content: '';
     position: absolute;
     font-size: 20rem;
     color: rgba(212, 175, 55, 0.08);
@@ -361,7 +361,7 @@ nav {
 /* Enhanced decorative flourish for hero title */
 .hero h1::before,
 .hero h1::after {
-    content: '?';
+    content: '';
     display: inline-block;
     margin: 0 1.5rem;
     font-size: 0.6em;
@@ -528,7 +528,7 @@ nav {
 }
 
 .feature-card::after {
-    content: '?';
+    content: '';
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -665,7 +665,7 @@ nav {
 }
 
 .stat-item::before {
-    content: '?';
+    content: '';
     position: absolute;
     top: 0;
     left: 50%;
