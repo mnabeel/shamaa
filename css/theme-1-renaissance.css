@@ -210,7 +210,7 @@ nav {
 
 /* Animated ornamental brackets for logo - using safe symbols */
 .logo::before {
-    content: '«';
+    content: '‹';
     position: absolute;
     left: -25px;
     opacity: 0;
@@ -220,7 +220,7 @@ nav {
 }
 
 .logo::after {
-    content: '»';
+    content: '›';
     position: absolute;
     right: -25px;
     opacity: 0;
